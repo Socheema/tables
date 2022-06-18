@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    /* color: ; */
+}
+
+
+p{
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 2rem;
+    color: darkslategrey;
+}
+
+
+th,td, table{
+    border: 1px solid rgb(243, 121, 84);
+    border-collapse: collapse;
+    padding: 2rem;
+    text-align: center;
+      font-size: .8rem;
+}
+
+table{
+    background-color: grey;
+}
+
+th{
+    background-color:saddlebrown;
+    color: rgb(4, 58, 75);
+}
+
+td{
+    background-color: maroon;
+    color: peru;
+}
+
+
